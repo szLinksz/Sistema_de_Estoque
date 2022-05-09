@@ -22,7 +22,7 @@ public class Cadastro {
         }
         if (BancoDeDados.getProdutoExiste() == false) {
             while (codigoProduct < 0) {
-                System.out.println("Codigos negativos não podem ser cadastrados");
+                System.out.println("Codigos negativos não podem ser cadastrados"); //loop para não permitir entrada de numeros negativos no cadastro
                 codigoProduct = scan.nextInt();
                 BancoDeDados.getPercorrer(codigoProduct);
 
