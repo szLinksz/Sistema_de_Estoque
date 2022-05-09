@@ -8,7 +8,7 @@ public class Filtro {
     private static String entrada;
     private Scanner scan = new Scanner(System.in);
 
-    public void setFiltro() {
+    public void setFiltro() { //filtrando letras recebidas na entrada
         do {
             System.out.println("digite C para cadastrar, S para consultar, M para modificar"
                                + ", E para excluir ou Q para finalizar");
