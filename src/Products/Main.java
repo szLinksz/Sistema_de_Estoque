@@ -18,7 +18,7 @@ public class Main {
         do {
 
             filtro.setFiltro();
-
+                // após o filtro de entrada decidindo o que acontece com a entrada
             if ((Filtro.getEntrada().equals("C") || Filtro.getEntrada().equals("c"))) {
                 cadastro.setCadastro();
             }
