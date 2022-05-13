@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class BancoDeDados {
+public final class  BancoDeDados {
 
     private static List<Itens> bancoLista = new ArrayList<>();
     private static Scanner scan = new Scanner(System.in);
@@ -31,7 +31,7 @@ public class BancoDeDados {
         return bancoLista.get(i);
 
     }
-
+    
     public static int getPercorrer() {         //função para percorrer a lista até encontrar a posição que corresponde a entrada
 
         entrada = scan.nextInt();
@@ -50,7 +50,7 @@ public class BancoDeDados {
     
     
     
-    
+        
         public static int getPercorrer(Integer entrada) {         //função para percorrer a lista até encontrar a posição que corresponde a entrada
 
         x = -1;
