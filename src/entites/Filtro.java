@@ -1,8 +1,8 @@
-package Products;
+package entites;
 
 import java.util.Scanner;
 
-public class Filtro {
+public final class Filtro {
 
     private boolean filtroEntrada;
     private static String entrada;

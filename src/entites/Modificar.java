@@ -1,8 +1,8 @@
-package Products;
+package entites;
 
 import java.util.Scanner;
 
-public class Modificar {
+public final class Modificar {
 
     Scanner scan = new Scanner(System.in);
 

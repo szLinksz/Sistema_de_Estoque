@@ -1,4 +1,4 @@
-package Products;
+package entites;
 
 import java.util.ArrayList;
 import java.util.List;

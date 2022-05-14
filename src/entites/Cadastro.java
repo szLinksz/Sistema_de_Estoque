@@ -1,8 +1,8 @@
-package Products;
+package entites;
 
 import java.util.Scanner;
 
-public class Cadastro {
+public final class Cadastro {
 
     private Scanner scan = new Scanner(System.in);
 

@@ -1,6 +1,7 @@
-package Products;
+package entites;
 
-public class Itens {
+public final class Itens {
+    
 private int codigo;
 private String name;
 private int estoque;

@@ -1,8 +1,8 @@
-package Products;
+package entites;
 
 import java.util.Scanner;
 
-public class Consulta {
+public final class Consulta {
 
     Scanner scan = new Scanner(System.in);
 

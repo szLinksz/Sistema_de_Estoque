@@ -1,5 +1,10 @@
 package Products;
 
+import entites.Cadastro;
+import entites.Consulta;
+import entites.Excluir;
+import entites.Filtro;
+import entites.Modificar;
 import java.util.Scanner;
 
 public class Main {
